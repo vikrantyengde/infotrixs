@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="sticky">
+        <nav >
+            <ul>
+                <li><a href="#home" target="_blank">Home</a></li>
+                <li><a href="#about" target="_blank">About</a></li>
+                <li><a href="#education" target="_blank">Education</a></li>
+                <li><a href="#contact" target="_blank">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h4>HI THERE!</h4>
+        <h1>I'M <span class="red">Vikrant Yengde</span></h1>
+        <p>My portfolio is a representation of all that I've learned in techrel institute as a UI Devoloper student.</p>
+        <a href="#contact" class="cta">Get in Touch</a>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a passionate web developer with experience in HTML, CSS, and JavaScript.<br>
+               I am a student at techrel institute as ui Devoloper.
+            </p>
+            <a href="https://drive.google.com/file/d/17DoeBzuM5CTTJ6xl74UxuzSIxrQl6sBE/view?usp=drive_link" class="cta" target="_blank">Resume</a>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>My Education</h2>
+            <div class="project">
+                <h3>ENGINEERING</h3>
+                <p>I have completed my engineering in mechanical department at SSIEMS,Parbhani.</p>
+            </div>
+            <div class="project">
+                <h3>DIPLOMA</h3>
+                <p>I have completed my diploma at goverment polytechnic,jintur.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" name="name"  placeholder="Your Name" required><br><br>
+                <input type="email" name="email" placeholder="Your Email" required><br><br>
+                <textarea name="message" ROWS="5" COLS="30" placeholder="Your Message" required></textarea><br>
+                <input type="submit" value="Send Message" class="cta">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>THANK YOU!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
